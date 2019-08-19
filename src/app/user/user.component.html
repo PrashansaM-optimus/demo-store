@@ -1,0 +1,8 @@
+<div>
+    <div>Add user for store</div>
+    <input type="text" placeholder="Add user name" [(ngModel)]="username" />
+    <button type="submit" (click)="onAddUser()">Add</button>
+</div>
+<div *ngFor="let user of users$ | async">
+    {{user.name}}
+</div>
