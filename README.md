@@ -2,8 +2,8 @@
 This project demonstrate integration and usage of ngrx/store for state management
 
 # Setup project
-npm install
-npm start
+- npm install
+- npm start
 
 # How to test the project
 - Enter user name in the textbox and click on submit
